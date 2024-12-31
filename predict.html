@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Concrete strength </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: hwb(64 74% 3%);
+      padding: 20px;
+    }
+
+    h1 {
+      color: hsl(113, 87%, 33%);
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.5cm;
+    }
+
+    .card {
+      margin-top: 40px;
+      padding: 15px;
+      border: 1px solid hsl(133, 88%, 61%);
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px hsla(177, 92%, 65%, 0.1);
+      background-color: hwb(59 19% 2% / 0.253);
+      max-width: 400px;
+    }
+
+    .card h1 {
+      color: hsl(268, 97%, 53%);
+      font-size: 3cm;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Concrete Compressive Strength (in MPa) for a given Ingredients and Age is:</h1>
+    <hr>
+  </header>
+
+  <main>
+    <div class="card text-center" style="margin: 0 auto;">
+      <div class="card-body">
+        <p class="card-text">
+          <h1>{{prediction}}</h1>
+        </p>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

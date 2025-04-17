@@ -1,5 +1,5 @@
 # Flask_ConcreteStrengthPredictor
-End-to-end data science Assignment to predict concrete strength. Includes model training using machine learning, model serialization with pickle, and deployment via a Flask-based web application.
+End-to-end data science Project to predict concrete strength. Includes model training using machine learning, model serialization with pickle, and deployment via a Flask-based web application.
 
 **Features:**
 Model Training & Evaluation: Uses machine learning techniques to predict concrete strength.
@@ -43,11 +43,9 @@ This will create a pickled model file (concrete.pkl) for deployment.
 Run the Flask Application:
 Run program to start the Flask web server:
 python app.py
-The app will be hosted at http://127.0.0.1:5000/.
 
 Make Predictions:
-Open your browser and go to http://127.0.0.1:5000/.
-Enter the concrete ingredient values (e.g., cement, water, age).
+Enter the concrete ingredient values (e.g., cement, water, age) in user interface.
 Click the Submit button to get the estimated concrete strength.
 
 **Demo**

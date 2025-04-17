@@ -15,8 +15,6 @@ Model Serialization: Pickle (for saving and loading the trained model)
 
 **Deployment (Development Server)**
 The Flask application runs on the local server for development purposes.
-It can be accessed at http://127.0.0.1:5000/ on your local machine.
-Note: This setup is for development and testing. It is not recommended for production use.
 
 **Folder Structure**
 Flask_ConcreteStrengthPredictor/
